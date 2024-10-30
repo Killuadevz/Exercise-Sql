@@ -1,4 +1,4 @@
-# Exercises-Sql
+# SQL Practice Hub
 
 ---
 
