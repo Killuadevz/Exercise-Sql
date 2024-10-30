@@ -8,7 +8,7 @@ Este documento contém uma coleção de consultas SQL para gerenciamento de film
 
 ## Consultas
 
-/* 1. Quais os países cadastrados? */
+** 1. Quais os países cadastrados? **
 ```sql
 SELECT * FROM PAIS;
 ```
