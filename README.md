@@ -12,27 +12,24 @@ Este documento contém uma coleção de consultas SQL para gerenciamento de film
 ```sql
 SELECT * FROM PAIS;
 ```
-
+**2. Quantos países estão cadastrados?**
 ```sql
-/* 2. Quantos países estão cadastrados? */
 SELECT COUNT(*) FROM PAIS;
 ```
 
+**3. Quantos países que terminam com a letra "A" estão cadastrados?**
 ```sql
-/* 3. Quantos países que terminam com a letra "A" estão cadastrados? */
 SELECT COUNT(*) 
 FROM PAIS 
 WHERE PAIS LIKE '%A';
 ```
-
+**4. Listar, sem repetição, os anos que houveram lançamento de filme.**
 ```sql
-/* 4. Listar, sem repetição, os anos que houveram lançamento de filme. */
 SELECT DISTINCT ANO_DE_LANCAMENTO 
 FROM FILME;
 ```
-
+**5. Alterar o ano de lançamento igual 2007 para filmes que iniciem com a Letra "B".**
 ```sql
-/* 5. Alterar o ano de lançamento igual 2007 para filmes que iniciem com a Letra "B". */
 UPDATE FILME 
 SET ANO_DE_LANCAMENTO = 2007 
 WHERE TITULO LIKE 'B%';
